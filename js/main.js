@@ -14,7 +14,7 @@ $(
         var audio6 = document.getElementById("audio6");
 
 
-        // audio.load();
+        audio.load();
 
 
 
@@ -25,7 +25,7 @@ $(
             audio1.play()
 
 
-            $("#img3").css({ 'top': h * 0.8 - 100, 'opacity': h * 0.01 })
+            $("#img3").css({ 'top': h * 0.8 - 100})
 
         }
         // part2
