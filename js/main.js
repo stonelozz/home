@@ -127,7 +127,7 @@ $(
         }
         // part7
         if (h > 12220 ) {
-            $("#img41").css({'opacity':(1 + 1 * (h - 9800)),'top':h-300})
+            $("#img41").css({'opacity':(1 + 1 * (h - 9800)),'top':h-400})
             audio5.pause()
             audio6.play()
 
@@ -143,18 +143,3 @@ $(
 
 
 
-// 作者：caoning315629 
-// 来源：CSDN 
-// 原文：https://blog.csdn.net/caoning315629/article/details/82593320 
-// 版权声明：本文为博主原创文章，转载请附上博文链接！
-// </script>
-//// { ---------------------  */}
-// 作者：EndisenChen 
-// 来源：CSDN 
-// 原文：https://blog.csdn.net/EndisenChen/article/details/70213336 
-// 版权声明：本文为博主原创文章，转载请附上博文链接！
-    // ---------------------
-    // 作者：圆滚滚的喵酱 
-    // 来源：CSDN 
-    // 原文：https://blog.csdn.net/github_37651381/article/details/73547489 
-    // 版权声明：本文为博主原创文章，转载请附上博文链接！
