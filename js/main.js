@@ -3,6 +3,8 @@ $(
     $(window).scroll(function () {
         var h = $(this).scrollTop();
         console.log(h);
+        var left =$(this).scrollLeft()
+        if(left>0){left=0}
         // 音频
         var audio1 = document.getElementById("audio1");
         var audio2 = document.getElementById("audio2");
