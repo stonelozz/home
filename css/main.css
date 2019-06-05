@@ -80,14 +80,14 @@ body{
 }
 #img5{
     position: absolute; 
-    /* top:2400px;  */
+    top:1995px; 
     left:0px;
     z-index:0;
 /*     opacity: 0; */
 }
 #img6{
     position: absolute; 
-    /* top:2600px;  */
+    top:1900px; 
     left:0px;
     z-index:30;
 /*     opacity: 0; */
