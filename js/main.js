@@ -3,8 +3,8 @@ $(
     $(window).scroll(function () {
         var h = $(this).scrollTop();
         console.log(h);
-        var leftA =$(this).scrollLeft();
-        if(leftA>0){window.scrollTo(0)}
+//         var leftA =$(this).scrollLeft();
+//         if(leftA>0){window.scrollTo(0)}
         // 音频
         var audio1 = document.getElementById("audio1");
         var audio2 = document.getElementById("audio2");
@@ -14,7 +14,7 @@ $(
         var audio6 = document.getElementById("audio6");
 
 
-        audio.load();
+//         audio.load();
 
 
 
