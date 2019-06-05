@@ -17,7 +17,7 @@ body{
     /* width:640PX; */
     /* height:12500px; */
     background-color:white;
-    resize: both;
+/*     resize: both; */
     z-index: -10;
 }
 
