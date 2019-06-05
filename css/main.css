@@ -83,14 +83,14 @@ body{
     /* top:2400px;  */
     left:0px;
     z-index:0;
-    opacity: 0;
+/*     opacity: 0; */
 }
 #img6{
     position: absolute; 
     /* top:2600px;  */
     left:0px;
     z-index:30;
-    opacity: 0;
+/*     opacity: 0; */
 }
 #img7{
     position: absolute; 
