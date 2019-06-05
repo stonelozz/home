@@ -33,8 +33,10 @@ $(
             audio1.pause()
             audio2.play()
             // $("#img3").fadeOut();
-            $("#img5").css({ 'top': h * 1.05, 'opacity': (h - 1900) * 0.005 })
-            $("#img6").css({ 'top': h, 'opacity': (h - 1900) * 0.005 })
+//             $("#img5").css({ 'top': h * 1.05, 'opacity': (h - 1900) * 0.005 })
+            $("#img5").css({ 'top': h * 1.05 })
+//             $("#img6").css({ 'top': h, 'opacity': (h - 1900) * 0.005 })
+             $("#img6").css({ 'top': h})
             $("#img7").css({ 'top': h + (h - 2000) * 0.6, 'opacity': (h - 1900) * 0.005, 'width': 640 - (h - 2500) * 0.5, 'left': (h - 1900) * 0.15 })
             $("#img8").css({ 'top': (h - 400) * 1.05, 'opacity': (h - 1900) * 0.005, 'left': (h - 2900) * 0.02 })
 
