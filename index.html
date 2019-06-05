@@ -3,31 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-   
-<!--        <meta name="viewport" content="width=640,user-scalable=no"> -->
-<!--     <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-    
-<!--       <meta name="viewport" content="width=640,initial-scale=0.6,  minimum-scale=0.6, maximum-scale=0.6,user-scalable=no"/> -->
 
-<!--   <meta name="viewport" content="width=640,initial-scale=1,  minimum-scale=1, maximum-scale=1,user-scalable=no"/> -->
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="full-screen" content="true"/>
-<meta name="screen-orientation" content="portrait"/>
-<meta name="x5-fullscreen" content="true"/>
-<meta name="360-fullscreen" content="true"/>  
+    <!--        <meta name="viewport" content="width=640,user-scalable=no"> -->
+    <!--     <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+
+    <!--       <meta name="viewport" content="width=640,initial-scale=0.6,  minimum-scale=0.6, maximum-scale=0.6,user-scalable=no"/> -->
+
+    <!--   <meta name="viewport" content="width=640,initial-scale=1,  minimum-scale=1, maximum-scale=1,user-scalable=no"/> -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
 
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/main.js"></script>
-   
-  <script type="text/javascript">
- 
-    var phoneWidth = parseInt(window.screen.width);
-    var phoneScale = phoneWidth/640;
-    var ua = navigator.userAgent;
-    document.write('<meta name="viewport" content="width=640, minimum-scale='+phoneScale+', maximum-scale='+phoneScale+',user-scalable=no">');
 
+    <script type="text/javascript">
+
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ',user-scalable=no">');
 //     if (/Android (\d+\.\d+)/.test(ua)){
 //     var version = parseFloat(RegExp.$1);
 //     if(version>2.3){
@@ -39,29 +38,27 @@
 //    else {
 //     document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
 // //    }                            
-    
+
 // $(function(){
-
 // $("#audio")[0].play();
-
 // })
+    </script>
 
-</script>
-    
 </head>
 
 <body>
     <div id="container" onclick="fn">
-       
         <!-- main -->
         <div id="part1">
             <img src="./img/a/2.png" alt="" id="img2" class="pic">
-            <img src="./img/a/3.png" id="img3" alt="" class="pic"></div>
+            <img src="./img/a/3.png" id="img3" alt="" class="pic">
+        </div>
         <div id="part2">
             <img src="./img/b/6.gif" id="img6" alt="" class="pic">
             <img src="./img/b/5.png" id="img5" alt="" class="pic">
             <img src="./img/b/7.png" id="img7" alt="" class="pic">
-            <img src="./img/b/8.png" id="img8" alt="" class="pic"></div>
+            <img src="./img/b/8.png" id="img8" alt="" class="pic">
+        </div>
         <div id="part3">
             <img src="./img/c/9.png" alt="" id="img9" class="pic">
             <img src="./img/c/9a.png" alt="" id="img9a" class="pic">
@@ -95,8 +92,6 @@
             <img src="./img/e/32.png" alt="" id="img32" class="pic">
             <img src="./img/e/33.gif" alt="" id="img33" class="pic">
             <!-- <img src="./img/e/34.png" alt="" id="img34" class="pic"> -->
-
-
         </div>
         <div id="part6">
             <img src="./img/f/36.png" alt="" id="img36" class="pic">
@@ -106,43 +101,46 @@
             <img src="./img/f/40.png" alt="" id="img40" class="pic">
         </div>
         <div id="part7">
-            <a href="https://vw.faw-vw.com/models/t-roc/360-troc.html">
-                <img src="./img/f/41.png" alt="" id="img41" class="pic" >
+            <a href="https://vw.faw-vw.com/">
+                <img src="./img/f/41.png" alt="" id="img41" class="pic">
             </a>
-            </div>
-<!--        audio  -->
-         <div id="audio">
+        </div>
+        <!-- audio  -->
+        <div id="audio">
             <audio id="audio1" loop="loop">
-                <source src="./audio/1.mp3" type="audio/mpeg" >
-                <!-- <source src="/statics/demosource/horse.mp3" type="audio/mpeg"> -->
+                <source src="./audio/1.mp3" type="audio/mpeg">
             </audio>
             <audio id="audio2" loop="loop">
-                <source src="./audio/2.mp3" type="audio/mpeg>
-                <!-- <source src="/statics/demosource/horse.mp3" type="audio/mpeg"> -->
+                <source src="./audio/2.mp3" type="audio/mpeg">
             </audio>
             <audio id="audio3" loop="loop">
                 <source src="./audio/3.mp3" type="audio/mpeg">
                 <source src="./audio/3a.mp3" type="audio/mpeg">
-
-                <!-- <source src="/statics/demosource/horse.mp3" type="audio/mpeg"> -->
             </audio>
             <audio id="audio4" loop="loop">
                 <source src="./audio/4.mp3" type="audio/mpeg">
                 <source src="./audio/4a.mp3" type="audio/mpeg">
-
                 <!-- <source src="/statics/demosource/horse.mp3" type="audio/mpeg"> -->
             </audio>
             <audio id="audio5" loop="loop">
                 <source src="./audio/5.mp3" type="audio/mpeg">
                 <!-- <source src="/statics/demosource/horse.mp3" type="audio/mpeg"> -->
             </audio>
-            <audio id="audio6"loop="loop">
-                    <source src="./audio/6.mp3" type="audio/mpeg">
-                    <!-- <source src="/statics/demosource/horse.mp3" type="audio/mpeg"> -->
+            <audio id="audio6" loop="loop">
+                <source src="./audio/6.mp3" type="audio/mpeg">
+                <!-- <source src="/statics/demosource/horse.mp3" type="audio/mpeg"> -->
             </audio>
-           </div>
-
+        </div>
     </div>
 </body>
 
 </html>
+
+<!-- <audio id="audio2" loop="loop">
+    <source src="./audio/2.mp3" type="audio/mpeg>
+</audio>
+<audio id="audio3" loop="loop">
+    <source src="./audio/3.mp3" type="audio/mpeg">
+    <source src="./audio/3a.mp3" type="audio/mpeg">
+
+</audio> -->
