@@ -38,15 +38,17 @@
 //    else {
 //     document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
 // //    }                            
-$(   
-    window.ontouchmove=function(){ 
-   $("#audio1").play();
-    }
-  )
-// $(function(){
-//        $("#audio")[0].play();
 
-// })
+        $(
+            window.ontouchmove = function () {
+                if (audio1.paused) {
+                    audio1.play();//audio.play();// 播放  
+                }
+                else {
+                    audio1();
+                }
+            }
+        )
     </script>
 
 </head>
